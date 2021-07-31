@@ -1,0 +1,67 @@
+{
+	"name": "moon.codes",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vue-cli-service serve",
+		"build": "vue-cli-service build"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"core-js": "^3.6.5",
+		"js-cookie": "^2.2.1",
+		"vue": "^2.6.12",
+		"vue-meta": "^2.4.0",
+		"vue-router": "^3.4.8",
+		"vue-the-mask": "^0.11.1",
+		"vue2-perfect-scrollbar": "^1.5.0",
+		"vuex": "^3.5.1",
+		"vuex-router-sync": "^5.0.0"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^4.5.8",
+		"@vue/cli-plugin-eslint": "^4.5.8",
+		"@vue/cli-plugin-router": "^4.5.8",
+		"@vue/cli-plugin-vuex": "^4.5.8",
+		"@vue/cli-service": "^4.5.8",
+		"babel-eslint": "^10.0.3",
+		"eslint": "^5.16.0",
+		"eslint-plugin-vue": "^5.0.0",
+		"node-sass": "^4.14.1",
+		"pug": "^2.0.4",
+		"pug-plain-loader": "^1.0.0",
+		"sass-loader": "^8.0.2",
+		"style-resources-loader": "^1.4.1",
+		"stylus": "^0.54.8",
+		"stylus-loader": "^3.0.2",
+		"vue-template-compiler": "^2.6.12",
+		"webpack-bundle-tracker": "^0.4.3"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/essential",
+			"eslint:recommended"
+		],
+		"rules": {
+			"no-console": 0,
+			"no-unused-vars": 0,
+			"no-unused-labels": 0
+		},
+		"parserOptions": {
+			"parser": "babel-eslint"
+		}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"babel": {
+		"presets": [
+			"@vue/cli-plugin-babel/preset"
+		]
+	}
+}

@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+yapf = "*"
+
+[packages]
+django = "*"
+psycopg2 = "*"
+djangorestframework = "*"
+django-redis = "*"
+requests = "*"
+django-webpack-loader = "==0.7.0"
+pillow = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true

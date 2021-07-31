@@ -1,0 +1,10 @@
+*.log
+public/static/*
+public/media/*
+.vscode/
+env.py
+node_modules/
+**/__pycache__/
+**/migrations/*
+!**/migrations/__init__.py
+Pipfile.lock

@@ -1,0 +1,67 @@
+.g-icon
+    fill inherit
+    stroke inherit
+    position relative
+    display inline-flex
+    svg
+        // width 100%
+        width auto
+        height 100%
+    > *
+        fill inherit
+        storke inherit
+        // stroke-width inherit
+
+.g-field
+    display flex
+    flex-direction column
+    label
+        font-size 12px
+        margin-bottom 4px
+    input
+        border 1px solid $gray
+        border-radius 5px
+        padding 6px 15px
+        font-size 14px
+        line-height 1.5
+        &:disabled
+            background-color #efefef
+            // color #6e6b7b
+            color $dark
+            border 1px solid #d8d6de
+    .value
+        font-size 14px
+        line-height 1.5
+        padding 6px 0
+    .g-inputset
+        display flex
+        align-items center
+
+
+.g-btn
+    &, &-primary, &-success, &-danger
+        padding 11px 21px
+        border-radius 5px
+        border 0
+        font-size 14px
+        font-weight 500
+        cursor pointer
+        text-align center
+    &-primary
+        background-color $primary
+        color #fff
+    &-success
+        background-color $success
+        color #fff
+    &-danger
+        background-color $danger
+        color #fff
+
+.g-link
+    color $primary
+    cursor pointer
+
+.g-panel
+    box-shadow 0 4px 24px 0 rgba(34,41,47,.1)
+    background-color #fff
+    border-radius 6px
